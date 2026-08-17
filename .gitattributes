@@ -1,0 +1,15 @@
+# Project-specific overrides
+*.htm linguist-vendored
+public/*.html linguist-vendored
+yarn.lock linguist-generated
+
+*.md linguist-documentation
+*.min.css linguist-generated
+src/** linguist-detectable
+go.sum linguist-generated
+
+node_modules/* linguist-vendored   
+src/**/*.ts linguist-detectable
+*.yml linguist-detectable=false
+*.gif binary   
+# eof b1cbbe6e
